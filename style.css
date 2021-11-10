@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    /* outline: red dotted 1px; */
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#list {
+    width: 400px;
+}
+
+#buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 375px;
+}
+
+#add {
+    width: 50px;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+}
+
+#remove {
+    width: 200px;
+    color: black;
+    background-color: goldenrod;
+    border-radius: 5px;
+}
+
+#removeAll {
+    width: 100px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+}
+
+#pTag {
+    margin-bottom: 5px;
+}
